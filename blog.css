@@ -1,0 +1,220 @@
+body {
+    margin:0;
+    font-family: 'Oxanium', cursive;
+}
+
+header{
+    height: 500px;
+    background-image: url(https://lombardia.abbonamentomusei.it/var/ezdemo_site/storage/images/lombardia/musei/casa-milan-museo-mondo-milan/125496-14-ita-IT/CASA-MILAN-MUSEO-MONDO-MILAN.jpg);
+    background-size: cover;
+    background-position: center; 
+    position:relative; 
+}
+
+#overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute; 
+    top:0;
+    bottom:0;
+    height: 100%;
+    width: 100%;
+    text-align: center; 
+}
+
+#menu{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(100, 30, 30);
+    font-size:1.2em;
+}
+@media (max-width: 500px) {
+    #menu{
+        justify-content: center;
+    }
+}
+
+#dx{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:20%;
+}
+@media (max-width: 500px) {
+    #dx{
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.icone0 img{
+    width: 33px;
+    height: 33px;
+}
+
+.icone1 img{
+    width: 22px;
+    height: 25px;
+}
+.icone2 img{
+    width: 25px;
+    height: 25px;
+}
+
+#flex{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 5em;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+    border: 2px solid black;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(100, 30, 30);
+    border: 3px ridge rgb(100, 30, 30);
+    border-radius: 5px;
+}
+@media (max-width: 500px) {
+    h1{
+        font-size: 3em;
+    }
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 90px;
+}
+
+#risposta2{
+    width: 35%;
+}
+
+@media (max-width: 500px) {
+    #risposta2{
+        width: 50%;
+    }
+}
+
+.box1{
+    width: 100%;
+    height: 330px;
+    border: 3px dashed rgb(100, 30, 30);
+    background-color: rgb(222, 218, 218);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; 
+    margin-top:40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.use{
+    padding-top: 5px;
+    padding-left: 5px;
+    color:black;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-bottom: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+.descr{
+    padding-top: 0;
+    color: black;
+    padding-left:5px;
+    font-size: 0.9em;
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+.post{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 500px) {
+    .post{
+        width: 70%;
+    }
+}
+
+.hidden{
+    display: none;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like{
+    margin-left: 5px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.numero{
+    font-size: 1.4em;
+    color: rgb(100, 30, 30);
+    margin-left: -80%;
+    padding-top: 5px;
+}
+@media (max-width: 500px) {
+    .numero{
+        margin-left: -60%;
+    }
+}
+
+.preferiti{
+    margin-right: 5px;
+    width: 35px;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color:grey;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    footer{
+        font-size: 0.6em;
+    }
+}
+
+.footerimg{
+    width: 40px;
+}

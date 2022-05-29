@@ -1,0 +1,111 @@
+body {
+    margin:0;
+    font-family: 'Oxanium', cursive;
+    background-color: rgb(100, 30, 30);
+}
+
+#page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto{
+    padding-left:100px;
+    width: 30%;
+    margin: 20px;
+
+}
+
+@media (max-width: 500px) {
+    .foto{
+        padding-left: 20px;
+        height:260px;
+        margin-top: 155px;
+    }
+}
+
+section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+    padding-top: 0;
+    color:white;
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#box{
+    margin-top: 5px;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 35%;
+    height: 90%;
+}
+@media (max-width: 500px) {
+    #box{
+        width: 50%;
+    }
+}
+
+form{
+    margin-bottom: 5px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+}
+@media (max-width: 500px) {
+    .box1{
+        font-size: 1em;
+    }
+}
+
+input{
+    width: 96%;
+}
+
+#accedi{
+    margin-top: 10px;
+    height: 40px;
+    font-family: 'Oxanium', cursive;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: pink;
+    border: 4px ridge rgb(250, 150, 150);
+    border-radius: 2px;
+    width: 100%;
+    cursor: pointer;
+}
+.errore{
+    text-align: right;
+    margin-top: 2px;
+    color:pink;
+    font-weight: bolder;
+    font-size: 0.6em;
+}
+
+.signup{
+    font-size: 0.8em;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
